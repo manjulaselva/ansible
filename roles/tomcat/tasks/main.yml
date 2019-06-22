@@ -11,4 +11,4 @@
 #     dest: /opt/tomcat/
 
 - name: Execute the script
-  command: sh /opt/tomcat/apache-tomcat-8.5.42/bin/start.sh
+  command: sh /opt/tomcat/apache-tomcat-8.5.42/bin/startup.sh
