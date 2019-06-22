@@ -5,5 +5,6 @@
 
   roles:
 #    - httpd
-    - dir
-#    - tomcat
+    - java
+#    - dir
+    - tomcat
