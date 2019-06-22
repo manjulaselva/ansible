@@ -5,8 +5,9 @@
 
   roles:
 #    - httpd
+     - yum
 #    - java
 #    - dir
-    - tomcat
+#     - tomcat
 #    - docker
 #    - terraform

@@ -1,0 +1,4 @@
+- name: install all basic packages
+  yum:
+    name: vim, mlocate, wget, zip, unzip
+    state: latest
