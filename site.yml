@@ -5,6 +5,8 @@
 
   roles:
 #    - httpd
-    - java
+#    - java
 #    - dir
     - tomcat
+#    - docker
+#    - terraform
