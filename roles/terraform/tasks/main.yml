@@ -1,3 +1,10 @@
 - name: install terrafrom
-  yum:
-    name:
+  get_url:
+    url:  https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip
+    mode: "0775"
+
+
+- name: unarchive terraform file
+  unarchive:
+    src: /opt/terraform
+    dest: /opt/terraform
