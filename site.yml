@@ -4,4 +4,6 @@
   become: yes
 
   roles:
-    - httpd
+#    - httpd
+    - dir
+#    - tomcat
