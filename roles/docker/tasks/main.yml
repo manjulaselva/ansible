@@ -12,7 +12,6 @@
   service:
     name: docker
     state: started
-  become: true
 
 
 - name: pull docker images
