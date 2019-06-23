@@ -1,0 +1,15 @@
+- name: create user
+  user:
+    name: oracle
+    createhome: yes
+    state: present
+    register: newuser
+
+
+
+- name: Add the user 'oracle' with a specific uid and a primary group of 'oracle'
+  user:
+    name: oracle
+    comment: oracle
+    uid: 1040
+    group: oracle
