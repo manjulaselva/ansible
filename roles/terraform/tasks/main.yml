@@ -4,7 +4,9 @@
 #     dest: /opt/terraform
 #     mode: "0775"
 
-- name: unarchive terraform file
+
+- name: Unarchive a file that is already on the remote machine
   unarchive:
-    src: /opt/terraform
-    dest: /opt/terraform
+    src: /opt/terraform/terraform_0.11.13_linux_amd64.zip
+    dest: /usr/local/bin
+    remote_src: yes
