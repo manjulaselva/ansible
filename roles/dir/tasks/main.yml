@@ -22,4 +22,9 @@
     path: /opt/jenkins
     state: directory
     mode: '0775'
-    
+
+- name: create directory for oracle database
+  file:
+  path: /opt/oracle
+  state: directory
+  mode: '0775'    
