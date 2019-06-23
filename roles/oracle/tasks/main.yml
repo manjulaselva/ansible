@@ -1,4 +1,4 @@
 - name: download oracle software
   get_url:
-    url: https://download.oracle.com/otn/linux/oracle19c/190000/LINUX.X64_193000_db_home.zip?AuthParam=1561273860_1b95f9154658c82fdf12f35e80a88e59
+    url: https://download.oracle.com/otn/linux/oracle19c/190000/LINUX.X64_193000_db_home.zip?AuthParam=1561275005_f18be759613d19b860db3c361eee8574
     dest: /opt/oracle
