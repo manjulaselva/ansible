@@ -1,6 +1,6 @@
 - name: copying files 
   copy:
     src: /opt/text.file
-    dest: /opt/
+    dest: /opt/text.file
     owner: ansible
     group: ansible
