@@ -6,10 +6,10 @@
 
   roles:
     # - httpd
-    # - yum
+      - yum
     # - java
-      - dir
+    # - dir
     # - tomcat
     # - docker
     # - terraform
-      - jenkins
+    # - jenkins

@@ -2,3 +2,8 @@
   yum:
     name: vim, mlocate, wget, zip, unzip
     state: latest
+
+- name: upadate all packages
+  yum:
+    name: *
+    state: latest
