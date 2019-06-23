@@ -10,9 +10,10 @@
     #  - java
     #  - dir
     #  - tomcat
-       - docker
+    #   - docker
     #  - terraform
     #  - jenkins
     #  - oracle
     #  - user
     #  - copy
+       - init 
