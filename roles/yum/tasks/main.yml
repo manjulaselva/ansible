@@ -5,5 +5,5 @@
 
 - name: upadate all packages
   yum:
-    name: *
+    name: '*'
     state: latest
