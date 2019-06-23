@@ -1,3 +1,9 @@
+- name: Ensure group "oracle" exists
+  group:
+    name: oracle
+    state: present
+
+
 - name: Add the user 'oracle' with a specific uid and a primary group of 'oracle'
   user:
     name: oracle
