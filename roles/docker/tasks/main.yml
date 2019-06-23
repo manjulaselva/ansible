@@ -1,9 +1,15 @@
-- name: install docker
-  yum:
-    name: docker
-    state: latest
+# - name: install docker
+#   yum:
+#     name: docker
+#     state: latest
 
-- name: install docker-compose
-  yum:
-    name: docker-compose
-    state: latest
+# - name: install docker-compose
+#   yum:
+#     name: docker-compose
+#     state: latest
+
+
+- name: pull docker images
+  docker_image: 
+    name: centos-7
+    source: pull
