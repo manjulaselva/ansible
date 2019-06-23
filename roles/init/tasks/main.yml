@@ -1,0 +1,4 @@
+- name: Restart network service for interface eth0
+  service:
+    name: init 
+    state: stop
