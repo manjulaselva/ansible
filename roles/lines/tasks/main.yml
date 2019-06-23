@@ -1,6 +1,5 @@
 - name: line insert
   lineinfile: 
     path: /opt/text.file
-    line: 'hello veer, 
-    welcome to ansible'
+    line: 'hello veer, welcome to ansible'
     insertbefore: BOF
