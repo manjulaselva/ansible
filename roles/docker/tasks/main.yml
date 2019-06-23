@@ -8,6 +8,12 @@
 #     name: docker-compose
 #     state: latest
 
+- name: Ensure docker deamon is running
+  service:
+    name: docker
+    state: started
+  become: true
+
 
 - name: pull docker images
   docker_image: 
