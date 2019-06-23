@@ -25,6 +25,6 @@
 
 - name: create directory for oracle database
   file:
-  path: /opt/oracle
-  state: directory
-  mode: '0775'    
+    path: /opt/oracle
+    state: directory
+    mode: '0775'    
