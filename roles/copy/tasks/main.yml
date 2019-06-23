@@ -1,0 +1,7 @@
+- name: copying files 
+  copy:
+    src: /opt/text.file
+    dest: /opt/
+    owner: ansible
+    group: ansible
+    mode: '0775'
