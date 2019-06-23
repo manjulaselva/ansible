@@ -1,8 +1,8 @@
-# - name: download terrafrom zip file
-#   get_url:
-#     url: https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip
-#     dest: /opt/terraform
-#     mode: "0775"
+- name: download terrafrom zip file
+  get_url:
+    url: https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip
+    dest: /opt/terraform
+    mode: "0775"
 
 
 - name: Unarchive a file that is already on the remote machine

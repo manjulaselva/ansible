@@ -5,10 +5,10 @@
   become_user: root
 
   roles:
-#    - httpd
-#     - yum
-#    - java
-#     - dir
-#     - tomcat
-#    - docker
-     - terraform
+    # - httpd
+    # - yum
+    # - java
+      - dir
+    # - tomcat
+      - docker
+    # - terraform
