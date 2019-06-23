@@ -4,9 +4,6 @@
     dest: /opt/terraform
     mode: "0775"
 
-
-
-
 - name: unarchive terraform file
   unarchive:
     src: /opt/terraform
