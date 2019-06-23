@@ -16,3 +16,10 @@
     path: /opt/docker
     state: directory
     mode: '0775'    
+
+- name: create directory for jenkins 
+  file:
+    path: /opt/jenkins
+    state: directory
+    mode: '0775'
+    
