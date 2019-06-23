@@ -17,4 +17,5 @@
     #  - user
     #  - copy
     #  - init 
-       - lines
+    #  - lines
+       - file

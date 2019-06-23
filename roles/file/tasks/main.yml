@@ -1,0 +1,4 @@
+- name: create file
+  file:
+    path: /opt/testing.txt
+    state: touch
