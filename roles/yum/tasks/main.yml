@@ -1,9 +1,9 @@
 - name: install all basic packages
   yum:
-    name: vim, mlocate, wget, zip, unzip
+    name: python-pip
     state: latest
 
-- name: upadate all packages
-  yum:
-    name: '*'
-    state: latest
+# - name: upadate all packages
+#   yum:
+#     name: '*'
+#     state: latest
