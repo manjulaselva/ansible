@@ -16,5 +16,5 @@
 
 - name: pull docker images
   docker_image: 
-    name: centos-7
+    name: centos
     source: pull
