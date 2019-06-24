@@ -14,7 +14,7 @@
 #     state: started
 
 
-- name: pull docker images
+- name: pull dockerimages
   docker_image: 
     name: centos
     source: pull
