@@ -6,11 +6,11 @@
 
   roles:
     #  - httpd
-       - yum
+    #  - yum
     #  - java
     #  - dir
     #  - tomcat
-    #  - docker
+       - docker
     #  - terraform
     #  - jenkins
     #  - oracle
