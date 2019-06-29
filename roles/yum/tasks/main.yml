@@ -1,6 +1,6 @@
 - name: install all basic packages
   yum:
-    name: telnet netstat
+    name: net-tools
     state: latest
 
 # - name: upadate all packages
