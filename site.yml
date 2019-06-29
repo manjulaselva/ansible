@@ -9,8 +9,8 @@
     #  - yum
     #  - java
     #  - dir
-    #  - tomcat
-      - docker
+       - tomcat
+    #  - docker
     #  - terraform
     #  - jenkins
     #  - oracle
