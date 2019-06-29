@@ -1,6 +1,6 @@
 - name: install all basic packages
   yum:
-    name: python-pip
+    name: telnet netstat
     state: latest
 
 # - name: upadate all packages
