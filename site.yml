@@ -6,8 +6,8 @@
 
   roles:
     #  - httpd
-       - yum
-    #  - java
+    #  - yum
+       - java
     #  - dir
     #  - tomcat
     #  - docker
@@ -19,3 +19,4 @@
     #  - init 
     #  - lines
     #  - file
+       - url

@@ -1,4 +1,30 @@
-- name: install open jdk
-  yum:
-    name: default-jre
-    state: latest
+# - name: install open jdk
+#   yum:
+#     name: default-jre
+#     state: latest
+
+
+- name: create directories  &  install java
+  file:
+    path: /opt/java
+    state: directory
+    mode: '0775'
+
+- name: download the tar file of java
+  get_url:
+    url: http://download.oracle.com/otn-pub/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_linux-x64_bin.tar.gz
+    src: /opt/java
+    dest: /opt/java
+    mode: '0775'
+
+
+- name: unarchive java file
+  unarchive: 
+    src: /opt/java/jdk-9.0.4_linux-x64_bin.tar.gz
+    dest: /opt/java
+
+
+
+
+
+
