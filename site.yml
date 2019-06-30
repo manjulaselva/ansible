@@ -6,7 +6,7 @@
 
   roles:
     #  - httpd
-    #  - yum
+       - yum
     #   - java
     #  - dir
     #  - tomcat
@@ -19,4 +19,4 @@
     #  - init 
     #  - lines
     #  - file
-       - url
+    #   - url
