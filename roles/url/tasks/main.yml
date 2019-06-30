@@ -6,4 +6,26 @@
   
   vars:
     http_headers:
-      host: site.example.com   
+      host: site.example.com
+
+
+- name: verify that site1.examole.com is up
+  uri: 
+    url: http://192.168.0.33:8080/
+    status_code: 200
+    follow_redirects: none
+  
+  vars:
+    http_headers:
+      host: site.example.com        
+
+
+- name: verify that site1.examole.com is up
+  uri: 
+    url: http://192.168.0.34:8080/
+    status_code: 200
+    follow_redirects: none
+  
+  vars:
+    http_headers:
+      host: site.example.com  
