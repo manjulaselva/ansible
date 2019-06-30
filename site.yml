@@ -8,7 +8,7 @@
     #  - httpd
     #  - yum
     #  - java
-    #  - dir
+       - dir
     #  - tomcat
     #  - docker
     #  - terraform

@@ -28,3 +28,10 @@
     path: /opt/oracle
     state: directory
     mode: '0775'    
+
+
+- name: create directory for maven
+  file:
+    path: /opt/maven
+    state: directory
+    mode: '0775'        
