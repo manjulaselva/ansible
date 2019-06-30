@@ -8,8 +8,8 @@
     #  - httpd
     #  - yum
     #  - java
-    #   - dir
-    #  - tomcat
+    #  - dir
+       - tomcat
     #  - docker
     #  - terraform
     #  - jenkins
@@ -20,4 +20,4 @@
     #  - lines
     #  - file
     #  - url
-       - maven
+    #  - maven
