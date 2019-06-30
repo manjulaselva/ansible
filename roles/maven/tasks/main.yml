@@ -9,6 +9,8 @@
     url=http://mirrors.estointernet.in/apache/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz
     dest=/opt/maven/apache-maven-3.6.1-bin.tar.gz
 
-     
-- name: Untar Maven 
-  shell: chdir=/opt/maven creates=/opt/maven/apache-maven-3.6.1-bin.tar.gz -zxf apache-maven-3.6.1-bin.tar.gz -C /opt/maven    
+
+- name: unarchive downloaded maven file
+  unarchive:
+    src: /opt/maven/apache-maven-3.6.1-bin.tar.gz
+    dest: /opt/tomcat/
