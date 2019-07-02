@@ -1,3 +1,4 @@
-    environment:
-      JAVA_HOME: /usr/lib/java-1.8.0
-    register: shellout
+environment:
+    JAVA_HOME: /usr/lib/java-1.8.0
+  tasks:
+     ...
