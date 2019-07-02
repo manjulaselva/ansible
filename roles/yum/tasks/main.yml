@@ -3,7 +3,13 @@
 #     name: net-tools
 #     state: latest
 
-- name: upadate all packages
+# - name: upadate all packages
+#   yum:
+#     name: '*'
+#     state: latest
+
+
+- name: install java
   yum:
-    name: '*'
+    name: java-1.8.0-openjdk
     state: latest
