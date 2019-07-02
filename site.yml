@@ -9,7 +9,7 @@
     #  - yum
     #  - java
     #  - dir
-       - tomcat
+    #  - tomcat
     #  - docker
     #  - terraform
     #  - jenkins
