@@ -6,7 +6,7 @@
 
   roles:
     #  - httpd
-       - yum
+    #  - yum
     #  - java
     #  - dir
     #  - tomcat
@@ -21,3 +21,4 @@
     #  - file
     #  - url
     #  - maven
+       - Environment
