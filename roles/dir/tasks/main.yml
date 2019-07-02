@@ -1,37 +1,44 @@
-- name: Create a directory if it does not exist
-  file:
-    path: /opt/tomcat
-    state: directory
-    mode: '0755'
+# - name: Create a directory if it does not exist
+#   file:
+#     path: /opt/tomcat
+#     state: directory
+#     mode: '0755'
 
 
-- name: create a directory for terrform
+# - name: create a directory for terrform
+#   file:
+#     path: /opt/terraform
+#     state: directory
+#     mode: '0775'
+
+# - name: create directory for docker engine
+#   file: 
+#     path: /opt/docker
+#     state: directory
+#     mode: '0775'    
+
+# - name: create directory for jenkins 
+#   file:
+#     path: /opt/jenkins
+#     state: directory
+#     mode: '0775'
+
+# - name: create directory for oracle database
+#   file:
+#     path: /opt/oracle
+#     state: directory
+#     mode: '0775'    
+
+
+# - name: create directory for maven
+#   file:
+#     path: /opt/maven
+#     state: directory
+#     mode: '0775'
+
+
+- name: create start.sh script file for tomcat
   file:
-    path: /opt/terraform
-    state: directory
+    path: /etc/init.d/startup.sh
+    state: touch
     mode: '0775'
-
-- name: create directory for docker engine
-  file: 
-    path: /opt/docker
-    state: directory
-    mode: '0775'    
-
-- name: create directory for jenkins 
-  file:
-    path: /opt/jenkins
-    state: directory
-    mode: '0775'
-
-- name: create directory for oracle database
-  file:
-    path: /opt/oracle
-    state: directory
-    mode: '0775'    
-
-
-- name: create directory for maven
-  file:
-    path: /opt/maven
-    state: directory
-    mode: '0775'        
