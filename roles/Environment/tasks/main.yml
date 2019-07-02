@@ -1,5 +1,3 @@
-- name: setup java environment in centos
-  environment:
-    JAVA_HOME: /usr/lib/java-1.8.0
+    environment:
+      JAVA_HOME: /usr/lib/java-1.8.0
     register: shellout
-    
