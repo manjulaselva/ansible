@@ -23,5 +23,5 @@
     #  - url
     #  - maven
     #  - Environment
-    #  - jboss
-       - nodejs
+       - jboss
+    #  - nodejs
