@@ -16,7 +16,7 @@
 
 
 - name: Execute the script
-  command: sh /etc/init.d/jboss.sh
+  command: sh /etc/init.d/jboss.sh -start
 
 
 
