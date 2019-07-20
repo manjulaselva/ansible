@@ -6,6 +6,7 @@
 
   roles:
     #  - httpd
+       - ownership
     #  - yum
     #  - java
     #  - dir
