@@ -16,7 +16,7 @@
 
 
 - name: Execute the script
-  command: sh /opt/jboss/wildfly-17.0.1.Final/bin/standalone.sh
+  command: sh /etc/init.d/jboss.sh
 
 
 
