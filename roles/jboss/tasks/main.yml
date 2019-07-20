@@ -9,9 +9,14 @@
 #     name: unzip, zip
 #     state: present
 
-- name: unarchive downloaded jboss file
-  unarchive:
-    src: /opt/jboss/wildfly-17.0.1.Final.tar.gz
-    dest: /opt/jboss/
+# - name: unarchive downloaded jboss file
+#   unarchive:
+#     src: /opt/jboss/wildfly-17.0.1.Final.tar.gz
+#     dest: /opt/jboss/
+
+
+- name: Execute the script
+  command: sh /opt/jboss/wildfly-17.0.1.Final/bin/standalone.sh
+
 
 
