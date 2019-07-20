@@ -1,6 +1,6 @@
 - name: Change file ownership, group and permissions
   file:
-    path: /opt/jboss/
+    path: /opt/jboss/ *
     owner: ansible
     group: ansible
     mode: '0775'
