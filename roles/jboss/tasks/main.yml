@@ -1,0 +1,12 @@
+- name: Download jboss file from internet
+  get_url:
+    url: https://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.zip
+    dest: /opt/jboss
+    mode: '0775'
+
+
+- name: unarchive downloaded jboss file
+  unarchive:
+    src: /opt/jboss/jboss-as-7.1.1.Final.zip
+    dest: /opt/jboss
+

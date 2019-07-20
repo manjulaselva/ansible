@@ -29,6 +29,13 @@
 #     state: directory
 #     mode: '0775'    
 
+- name: create a directory for jboss
+  file:
+    path: /opt/jboss
+    state: directory
+    mode: '0775'
+
+
 
 # - name: create directory for maven
 #   file:
@@ -37,8 +44,8 @@
 #     mode: '0775'
 
 
-- name: create start.sh script file for tomcat
-  file:
-    path: /etc/init.d/startup.sh
-    state: touch
-    mode: '0775'
+# - name: create start.sh script file for tomcat
+#   file:
+#     path: /etc/init.d/startup.sh
+#     state: touch
+#     mode: '0775'

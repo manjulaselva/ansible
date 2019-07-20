@@ -8,7 +8,7 @@
     #  - httpd
     #  - yum
     #  - java
-    #   - dir
+       - dir
     #  - tomcat
     #  - docker
     #  - terraform
@@ -17,8 +17,9 @@
     #  - user
     #  - copy
     #  - init 
-       - lines
+    #  - lines
     #  - file
     #  - url
     #  - maven
     #  - Environment
+       - jboss
