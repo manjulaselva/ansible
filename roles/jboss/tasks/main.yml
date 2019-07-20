@@ -8,8 +8,6 @@
   yum:
     name: unzip, zip
     state: present
-    update_cache= yes
-
 
 - name: unarchive downloaded jboss file
   unarchive:
