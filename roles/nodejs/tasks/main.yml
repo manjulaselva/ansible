@@ -1,0 +1,11 @@
+
+- name: install  node.js
+  yum:
+    name: nodejs
+    state: latest    
+
+
+- name: install  node.js
+  yum:
+    name: npm
+    state: latest        

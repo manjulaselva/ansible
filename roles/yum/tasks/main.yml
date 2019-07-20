@@ -9,7 +9,14 @@
 #     state: latest
 
 
-- name: install java
-  yum:
-    name: java-1.8.0-openjdk
-    state: latest
+# - name: install java
+#   yum:
+#     name: java-1.8.0-openjdk
+#     state: latest
+
+
+
+# - name: install gcc-c++ make for node.js
+#   yum:
+#     name: gcc-c++ make
+#     state: latest    

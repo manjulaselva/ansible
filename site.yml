@@ -6,8 +6,8 @@
 
   roles:
     #  - httpd
-       - ownership
-    #  - yum
+    #  - ownership
+    #   - yum
     #  - java
     #  - dir
     #  - tomcat
@@ -23,4 +23,5 @@
     #  - url
     #  - maven
     #  - Environment
-       - jboss
+    #  - jboss
+       - nodejs
