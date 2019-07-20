@@ -8,7 +8,6 @@
 - name: unarchive downloaded jboss file
   unarchive:
     src: /opt/jboss/jboss-as-7.1.1.Final.zip
-    dest: /opt/jboss
-
+    dest: /opt/jboss/
 
 
