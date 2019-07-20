@@ -6,7 +6,7 @@
 
   roles:
     #  - httpd
-    #  - ownership
+       - ownership
     #   - yum
     #  - java
     #  - dir
@@ -15,7 +15,7 @@
     #  - terraform
     #  - jenkins
     #  - oracle
-    #  - user
+       - user
     #  - copy
     #  - init 
     #  - lines

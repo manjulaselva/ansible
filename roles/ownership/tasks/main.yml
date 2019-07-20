@@ -1,6 +1,6 @@
 - name: Change file ownership, group and permissions
   file:
-    path: /opt/jboss/ *
+    path: /opt/jboss/wildfly-17.0.1.Final.tar.gz
     owner: ansible
     group: ansible
     mode: '0775'

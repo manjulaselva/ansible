@@ -1,13 +1,13 @@
-- name: Download jboss file from internet
-  get_url:
-    url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.tar.gz
-    dest: /opt/jboss
-    mode: '0775'
+# - name: Download jboss file from internet
+#   get_url:
+#     url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.tar.gz
+#     dest: /opt/jboss
+#     mode: '0775'
 
-- name: install extract dependencies 
-  yum:
-    name: unzip, zip
-    state: present
+# - name: install extract dependencies 
+#   yum:
+#     name: unzip, zip
+#     state: present
 
 - name: unarchive downloaded jboss file
   unarchive:
